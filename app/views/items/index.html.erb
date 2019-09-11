@@ -1,0 +1,12 @@
+
+<h1>  Items </h1>
+
+<ul>
+<% @items.each do |i| %>
+
+  <li>
+    <img src=<%= i.img_url %> >
+    <%= link_to i.name, i %> 
+  </li>
+<% end %>
+</ul>

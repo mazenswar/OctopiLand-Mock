@@ -1,0 +1,12 @@
+<h1> <%=  @octopus.name  %>% </h1>
+
+<h2> Items </h2>
+
+<ul style="list-style: none">
+    <% @octopus.items.each do |i| %>
+        <li style="display: flex; flex-direction: column; align-items: center; width: 30%">
+        <%= link_to i.name, i %>
+        <img src=<%= i.img_url %> style="width: 200px; border-radius: 30px" >
+        </li>
+    <% end %>
+</ul>
