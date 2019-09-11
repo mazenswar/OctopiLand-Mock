@@ -3,6 +3,7 @@ class OctoItemsController < ApplicationController
         @octo_item = OctoItem.new
         @octopi = Octopus.all
         @items = Item.all
+
     end
 
     def create
