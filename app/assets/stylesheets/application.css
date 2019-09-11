@@ -111,7 +111,7 @@ select {
   font-weight: bold;
 }
 
-#new_octo_item {
+form {
   width: 70%;
   height: 70vh;
   margin: auto;
