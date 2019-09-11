@@ -1,14 +1,10 @@
 <h1>  <%= @item.name %>  </h1>
 
-<img src=<%= @item.img_url %> >
 
 <h2> Owned By </h2>
 
+<%# Use the following structure for your code  %>
 <ul>
-    <% @item.octopi.each do |oct| %>
     <li >
-        <img src=<%= oct.img_url %>>
-        <%= link_to oct.name, oct %> 
     </li>
-    <% end %>
 </ul>

@@ -7,4 +7,5 @@ class OctopiController < ApplicationController
     def show
         @octopus = Octopus.find(params[:id])
     end
+    
 end

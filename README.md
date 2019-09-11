@@ -24,7 +24,7 @@ Octopi Land is a fictional app where an Octopus can own many items and an Item c
 
 **_To help you complete this assignment we listed the high level steps required to complete this assignment. Read through them carefully to get a sense of the requirements for this code challenge, and then tackle them one by one._**
 
-1. Create the associations between the models. You may have to alter the current schema to get your code working.
+1. Create the associations between the models. You may have to alter the current schema to get your code working. Take a look at the seeds file for hints.
 
 2. On the Octopi index page, each octopus should show it's image and name. Clicking on the octopus' name should take you to its show page.
 
@@ -41,5 +41,6 @@ Octopi Land is a fictional app where an Octopus can own many items and an Item c
 
 ## BONUS:
 
-1. Make a form to create a new octopus.
-2. Make a form to create a new item.
+1. Make the "New" button on the navbar link to the form that you will use to create the association (The navbar is in app/views/layout/application.html.erb)
+2. Make a form to create a new octopus.
+3. Make a form to create a new item.

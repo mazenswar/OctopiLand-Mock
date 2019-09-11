@@ -40,50 +40,5 @@ octo_images.each do |img|
     OctoItem.create(octopus: oct, item: Item.all.sample)
 end
 
-# Octopus.all.each do |oct|
-#     name = "🌼🌻🌸 The Garden of #{oct.name} 🌸🌻🌼"
-#     Garden.create(octopus: oct, name: name)
-# end
 
-
-# Octopus.all.each do |oct|
-#     OctoItem.create(octopus: oct, item: Item.all.sample)
-#     OctoItem.create(octopus: oct, item: Item.all.sample)
-#     OctoItem.create(octopus: oct, item: Item.all.sample)
-# end
-
-
-
-puts "Success!!!!!"
-
-#   create_table "garden_items", force: :cascade do |t|
-#     t.bigint "garden_id"
-#     t.bigint "item_id"
-#     t.datetime "created_at", null: false
-#     t.datetime "updated_at", null: false
-#     t.index ["garden_id"], name: "index_garden_items_on_garden_id"
-#     t.index ["item_id"], name: "index_garden_items_on_item_id"
-#   end
-
-#   create_table "gardens", force: :cascade do |t|
-#     t.string "name"
-#     t.string "size"
-#     t.bigint "octopus_id"
-#     t.datetime "created_at", null: false
-#     t.datetime "updated_at", null: false
-#     t.index ["octopus_id"], name: "index_gardens_on_octopus_id"
-#   end
-
-#   create_table "items", force: :cascade do |t|
-#     t.string "name"
-#     t.string "img_url"
-#     t.datetime "created_at", null: false
-#     t.datetime "updated_at", null: false
-#   end
-
-#   create_table "octopi", force: :cascade do |t|
-#     t.string "name"
-#     t.string "img_url"
-#     t.datetime "created_at", null: false
-#     t.datetime "updated_at", null: false
-#   end
+puts "Wooooohoooo!! Seeding was a success!!!!!"

@@ -1,12 +1,12 @@
 
 <h1>  Octopi Land  </h1>
 
+<%# Add your code to the following  %>
+
 <ul >
 <% @octopi.each do |oct| %>
-
   <li >
     <img src=<%= oct.img_url %>>
-    <%= link_to oct.name, oct %> 
   </li>
 <% end %>
 </ul>
